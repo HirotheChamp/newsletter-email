@@ -21,25 +21,20 @@ subject: Great Deals Today
     
     <row class="content_area">
         <columns class="first_offer">
-            {{#each kayakEmail.offers}}
+           
         <row class="offer">
 <columns>
         
-<img src="{{this.image}}"/>
+<img src="{{root}}/assets/img/apparel_files/img/banner.jpg"/>
     
 
-<p>{{this.location}}: {{this.description}}</p>
-    <span class="save_amount">{{this.saveAmount}}</span>
-    <span class="tiny_info">{{this.tinyInfo}}</span>
-    <span class="price">${{this.price}}+</span>
-  <center class="center_fix">
-    <a href="{{this.link}}" class="button">See Deal</a>
-</center>
+
+ 
 </columns>
    
 
     </row>
-    {{/each}}
+ 
         </columns>
     </row>
 </container>
